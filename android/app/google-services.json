@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "955694184430",
+    "firebase_url": "https://acciden-tv.firebaseio.com",
+    "project_id": "acciden-tv",
+    "storage_bucket": "acciden-tv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955694184430:android:b8cf54d6e8c7a8bc56c0ff",
+        "android_client_info": {
+          "package_name": "stard.accidentv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955694184430-tb1lhg6rsu8o2qfc4nfagmr3ocefeqva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stard.accidentv",
+            "certificate_hash": "3e7e418fc12c8cf8f2c738fbb2781f7a00111a3f"
+          }
+        },
+        {
+          "client_id": "955694184430-p0b7mm3mp4jhum32m9n1aqtmo37jakgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8DmWeEEejd_S0b8QAacbDE-73j5ft_iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955694184430-p0b7mm3mp4jhum32m9n1aqtmo37jakgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
