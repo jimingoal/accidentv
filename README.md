@@ -29,5 +29,5 @@ ssk/develop, ssk/feature/sign-in, ssk/feature/remove-main-page 등 편한대로 
 
 - PullRequest / Merge 방법
 1. 기본적으로 개인 브랜치는 쓰고 싶은대로 사용하시구요.
-1. develop 는 공용 브랜치이므로, 작업물을 반영하고 싶으면, feature/xxx 로 브랜치 올리고 PullRequest 를 생성합니다.
+1. develop 는 공용 브랜치이므로, 작업물을 반영하고 싶으면, $nick/feature/xxx 로 브랜치 올리고 PullRequest 를 생성합니다.
 1. 나머지 멤버들은 코드리뷰를 하고, 긍정적인 피드백이 과반을 넘기면 Merge 가능한걸로 인정합니다. (merge 담당: ssk)
