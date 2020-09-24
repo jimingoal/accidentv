@@ -18,7 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 ## 개발 환경
 - Git-repository: [https://github.com/rrstard/accidentv](https://github.com/rrstard/accidentv)
 - Firebase Console: [https://console.firebase.google.com/project/acciden-tv](https://console.firebase.google.com/project/acciden-tv)
-- Master Design: [https://www.figma.com/file/IwEO6dN7vf0RIE1iyxrqhK/STARD_Storyboard](https://www.figma.com/file/IwEO6dN7vf0RIE1iyxrqhK/STARD_Storyboard)
+- Master Design: [https://www.figma.com/file/IwEO6dN7vf0RIE1iyxrqhK/STARD_Storyboard?node-id=73%3A2](https://www.figma.com/file/IwEO6dN7vf0RIE1iyxrqhK/STARD_Storyboard?node-id=73%3A2)
 
 ## Policy of git-branch 
 - 브랜치 이름
