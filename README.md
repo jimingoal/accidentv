@@ -32,3 +32,18 @@ Accidentv
 - 공사 [http://openapi.its.go.kr/portal/dev/dev4.do](http://openapi.its.go.kr/portal/dev/dev4.do)
 - 사고 [http://openapi.its.go.kr/portal/dev/dev5.do](http://openapi.its.go.kr/portal/dev/dev5.do)
 - CCTV [http://openapi.its.go.kr/portal/dev/dev6.do](http://openapi.its.go.kr/portal/dev/dev6.do)
+
+## 프로젝트 내려받기
+- git clone https://github.com/rrstard/accidentv.git
+```
+$ git clone https://github.com/rrstard/accidentv.git
+Cloning into 'accidentv'...
+Username for 'https://github.com': abcdefg <-- github id 입력
+Password for 'https://abcdefg@github.com': ****** <-- github password 입력
+remote: Enumerating objects: 394, done.
+remote: Counting objects: 100% (394/394), done.
+remote: Compressing objects: 100% (213/213), done.
+remote: Total 394 (delta 164), reused 358 (delta 136), pack-reused 0
+Receiving objects: 100% (394/394), 97.18 KiB | 262.00 KiB/s, done.
+Resolving deltas: 100% (164/164), done.
+```
