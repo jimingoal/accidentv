@@ -36,7 +36,7 @@ Accidentv
 ## 프로젝트 내려받기
 - git clone https://github.com/rrstard/accidentv.git
 ```
-$ git clone https://github.com/rrstard/accidentv.git
+$ git clone https://github.com/rrstard/accidentv.git <-- terminal 에 그대로 입력
 Cloning into 'accidentv'...
 Username for 'https://github.com': abcdefg <-- github id 입력
 Password for 'https://abcdefg@github.com': ****** <-- github password 입력
