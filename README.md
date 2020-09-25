@@ -33,10 +33,11 @@ Accidentv
 - 사고 [http://openapi.its.go.kr/portal/dev/dev5.do](http://openapi.its.go.kr/portal/dev/dev5.do)
 - CCTV [http://openapi.its.go.kr/portal/dev/dev6.do](http://openapi.its.go.kr/portal/dev/dev6.do)
 
-## 프로젝트 내려받기
-- git clone https://github.com/rrstard/accidentv.git
+## 프로젝트 내려받기 - 일반적인 세 가지 방법 소개
+1. id / password
+- https://github.com/rrstard/accidentv.git 주소를 이용, id / password 입력하기
 ```
-$ git clone https://github.com/rrstard/accidentv.git <-- terminal 에 그대로 입력
+  $ git clone https://github.com/rrstard/accidentv.git <-- terminal 에 그대로 입력
 Cloning into 'accidentv'...
 Username for 'https://github.com': abcdefg <-- github id 입력
 Password for 'https://abcdefg@github.com': ****** <-- github password 입력
@@ -46,4 +47,17 @@ remote: Compressing objects: 100% (213/213), done.
 remote: Total 394 (delta 164), reused 358 (delta 136), pack-reused 0
 Receiving objects: 100% (394/394), 97.18 KiB | 262.00 KiB/s, done.
 Resolving deltas: 100% (164/164), done.
+```
+2. id / personal access token
+- https://github.com/rrstard/accidentv.git 주소를 이용, id / password 입력하기
+```
+  $ git clone https://github.com/rrstard/accidentv.git
+  # id / password 대신, id / token 입력
+```
+3. ssh protocol
+- ssh 주소 이용 git@github.com:rrstard/accidentv.git
+- 키 등록 [https://github.com/settings/keys](https://github.com/settings/keys)
+  - 키 생성은 위 링크 [내부](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)에 있음.
+```
+- git clone git@github.com:rrstard/accidentv.git
 ```
