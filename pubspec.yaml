@@ -32,6 +32,8 @@ dependencies:
   firebase_auth: ^0.18.0+1
   google_sign_in: ^4.5.3
   google_maps_flutter: ^0.5.11
+  location: ^3.0.2
+  font_awesome_flutter: ^8.10.0
 
 
 dev_dependencies:
