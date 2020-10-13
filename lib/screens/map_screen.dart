@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:accidentv/widgets/multi_select_chip.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -47,7 +48,6 @@ class _MapScreenState extends State<MapScreen> {
       body: Stack(
         children: [
           GoogleMap(
-            myLocationButtonEnabled: true,
             myLocationEnabled: true,
             onMapCreated: _onMapCreated,
             initialCameraPosition: CameraPosition(
@@ -101,59 +101,62 @@ class _MapScreenState extends State<MapScreen> {
             ),
           ),
           Positioned(
-            left: 20,
-            bottom: 50,
-            child: ToggleButtons(
-              // selectedBorderColor: Colors.lightBlue,
-              renderBorder: false,
-              selectedColor: Colors.black26,
-              disabledColor: Colors.black26,
-              children: <Widget>[
-                Container(
-                  alignment: Alignment.center,
-                  width: 80,
-                  child: FaIcon(
-                    FontAwesomeIcons.tools,
-                    size: 25.0,
-                  ),
-                ),
-                Container(
-                  width: 80,
-                  child: FaIcon(
-                    FontAwesomeIcons.tools,
-                    size: 25.0,
-                  ),
-                ),
-                Container(
-                  width: 80,
-                  child: FaIcon(
-                    FontAwesomeIcons.tools,
-                    size: 25.0,
-                  ),
-                ),
-                Container(
-                  width: 80,
-                  child: FaIcon(
-                    FontAwesomeIcons.tools,
-                    size: 25.0,
-                  ),
-                ),
-              ],
-              onPressed: (int index) {
-                int count = 0;
-                isSelected.forEach((bool val) {
-                  if (val) count++;
-                });
-
-                if (isSelected[index] && count < 2) return;
-
-                setState(() {
-                  isSelected[index] = !isSelected[index];
-                });
-              },
-              isSelected: isSelected,
-            ),
-          ),
+              bottom: 100,
+              child: MultiSelectChip()),
+          // Positioned(
+          //   left: 20,
+          //   bottom: 50,
+          //   child: ToggleButtons(
+          //     // selectedBorderColor: Colors.lightBlue,
+          //     renderBorder: false,
+          //     selectedColor: Colors.black26,
+          //     disabledColor: Colors.black26,
+          //     children: <Widget>[
+          //       Container(
+          //         alignment: Alignment.center,
+          //         width: 80,
+          //         child: FaIcon(
+          //           FontAwesomeIcons.tools,
+          //           size: 25.0,
+          //         ),
+          //       ),
+          //       Container(
+          //         width: 80,
+          //         child: FaIcon(
+          //           FontAwesomeIcons.tools,
+          //           size: 25.0,
+          //         ),
+          //       ),
+          //       Container(
+          //         width: 80,
+          //         child: FaIcon(
+          //           FontAwesomeIcons.tools,
+          //           size: 25.0,
+          //         ),
+          //       ),
+          //       Container(
+          //         width: 80,
+          //         child: FaIcon(
+          //           FontAwesomeIcons.tools,
+          //           size: 25.0,
+          //         ),
+          //       ),
+          //     ],
+          //     onPressed: (int index) {
+          //       int count = 0;
+          //       isSelected.forEach((bool val) {
+          //         if (val) count++;
+          //       });
+          //
+          //       if (isSelected[index] && count < 2) return;
+          //
+          //       setState(() {
+          //         isSelected[index] = !isSelected[index];
+          //       });
+          //     },
+          //     isSelected: isSelected,
+          //   ),
+          // ),
           // Positioned(
           //   left: 10,
           //   bottom: 50,
